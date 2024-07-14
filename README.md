@@ -2,7 +2,7 @@
 
 **Description:**
 
-This repository is my 30 Days of JavaScript Challenge, an initiative by CGhai aur Code to equip you with core JavaScript programming skills.  Throughout 30 days, you'll embark on a structured learning journey, tackling concepts from the fundamentals to advanced topics.
+This repository is my 30 Days of JavaScript Challenge, an initiative by Chai aur Code to equip you with core JavaScript programming skills.  Throughout 30 days, you'll embark on a structured learning journey, tackling concepts from the fundamentals to advanced topics.
 
 **Getting Started:**
 
