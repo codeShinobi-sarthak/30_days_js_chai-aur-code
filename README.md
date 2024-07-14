@@ -1,4 +1,4 @@
-**Title:** 30 Days of JavaScript Challenge(Chai aur Code)
+30 Days of JavaScript Challenge(Chai aur Code)
 
 **Description:**
 
