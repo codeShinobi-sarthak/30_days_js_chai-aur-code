@@ -1,0 +1,88 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 10px;
+    }
+
+    .img-visible {
+      width: 200px;
+      height: 200px;
+    }
+    .change-bg {
+      width: 200px;
+      height: 200px;
+      background-color: black;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+    div {
+      border: black 2px solid;
+    }
+  </style>
+  <body>
+    <div>
+      <div>
+        <p class="paragraph">paragraph text</p>
+        <button class="btn">change text</button>
+      </div>
+      <img
+        class="img-visible"
+        src="data:image/png;base64,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"
+        alt="image"
+      />
+    </div>
+
+    <div class="change-bg">
+      mouseOver and mouseOut to change the bg color
+      <br />
+      <br />
+      Default color is "black"
+    </div>
+
+    <div>
+      <label for="log-key">Input any key to log the result</label>
+      <input id="log-key" type="text" />
+      <p class="display-key">key will be displayed here</p>
+    </div>
+
+    <div>
+      <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div>
+      <label for="cars">Choose a language:</label>
+
+      <select title="choose_fav_laguage" name="language" id="language">
+        <option value="java">java</option>
+        <option value="javascript">javascript</option>
+        <option value="c++">c++"></option>
+        <option value="css">css</option>
+      </select>
+
+      <p class="selected-value">selected value will be displayed here</p>
+    </div>
+    <div>
+      <ul class="list">
+        <li class="item-1">item-1</li>
+        <li class="item-2">item-2</li>
+        <li class="item-3">item-3</li>
+        <li class="item-4">item-4</li>
+        <li class="item-5">item-5</li>
+      </ul>
+      <button class="add-Item-Btn" type="button">Add-Item</button>
+    </div>
+    <script src="Day_10.js"></script>
+  </body>
+</html>
