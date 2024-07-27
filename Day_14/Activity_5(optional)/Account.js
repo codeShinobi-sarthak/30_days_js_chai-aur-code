@@ -1,5 +1,5 @@
 class Account {
-  #balance;
+  #balance; //* this is a private property menas can only be accessed in class
 
   constructor(balance) {
     this.balance = balance;
