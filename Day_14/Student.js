@@ -3,26 +3,26 @@
 const Person = require("./Person"); // Import the Person class
 
 class Student extends Person {
-  static no = 0; //* for task 6
-  studentID;
+    static no = 0; //* for task 6
+    studentID;
 
-  constructor(id, firstName, lastName) {
-    super(firstName, lastName);
-    this.studentID = id;
-    Student.no += 1;
-  }
+    constructor(id, firstName, lastName) {
+        super(firstName, lastName);
+        this.studentID = id;
+        Student.no += 1;
+    }
 
-  get StudentID() {
-    return this.studentID;
-  }
+    get StudentID() {
+        return this.studentID;
+    }
 
-  greet() {
-    return `hello, ${this.name} my student id is ${this.StudentID}`;
-  }
+    greet() {
+        return `hello, ${this.name} my student id is ${this.StudentID}`;
+    }
 }
 
 console.log(
-  " --------------------startign of student class--------------------"
+    " --------------------startign of student class--------------------"
 );
 // Create student instances
 const student1 = new Student(1234, "hardik", " tyagi");

@@ -16,8 +16,8 @@ var str = "it's a string";
 var bool = true;
 var arr = [1, 2, 3];
 var obj = {
-  name: "sarthak",
-  age: 20,
+    name: "sarthak",
+    age: 20,
 };
 
 console.log(num);
